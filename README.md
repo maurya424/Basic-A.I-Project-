@@ -1,12 +1,11 @@
 # Basic-A.I-Project-
 
 When there's a snap or any noise picked up by the microphone, it will activate.
-
+<br>
 If it doesn't respond to a command, you'll be asked to manually type the command, and you can also issue commands by typing.
+<br>
+You can open and search anything using your default browser, but you'll need to set your default path. I had Edge, so I set it to Edge, but you can set your own default browser here
 
-Here's a more advanced version of that sentence:
-
-You can open and search anything using your default browser, but you'll need to set your default path. I had Edge, so I set it to Edge, but you can set your own default browser here:
             elif "search on edge" in query:
                 try:
                     speak("What should I search?")
